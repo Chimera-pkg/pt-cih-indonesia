@@ -6,7 +6,9 @@ export default function Partners() {
         
         <div className="flex flex-wrap justify-center items-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
           <div className="text-2xl font-bold text-gray-400">MITRA 01</div>
-          <div className="text-2xl font-bold text-gray-400">PERTAMINA</div>
+          <div className="w-40 md:w-48">
+                    <img src="pertamina.png" alt="Pertamina" className="w-full h-auto object-contain" />
+                </div>
           <div className="text-2xl font-bold text-gray-400">PELINDO</div>
           <div className="text-2xl font-bold text-gray-400">KEMENHUB</div>
           <div className="text-2xl font-bold text-gray-400">SWASTA</div>

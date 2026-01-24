@@ -6,11 +6,11 @@ export default function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('image.png')" }}
+        style={{ backgroundImage: "url('hero.png')" }}
       ></div>
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-maritime-blue/70 z-10"></div>
+      <div className="absolute inset-0 bg-maritime-blue/60 z-10"></div>
 
       <div className="relative z-20 container mx-auto px-6 text-center md:text-left md:flex md:items-center h-full">
         <div className="md:w-2/3 mt-20 fade-in-up">

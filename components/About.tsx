@@ -9,7 +9,7 @@ export default function About() {
           <div className="md:w-1/2 relative">
             <div className="rounded-lg shadow-2xl relative z-10 w-full h-96 overflow-hidden">
                 <img 
-                    src="/image2.png" 
+                    src="/image2.jpg" 
                     alt="Shipyard" 
                     className="w-full h-full object-cover"
                 />
@@ -21,16 +21,24 @@ export default function About() {
             <h4 className="text-ocean-blue font-bold uppercase tracking-widest mb-2">Profil Perusahaan</h4>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Mitra Terpercaya Industri Maritim</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Kami adalah perusahaan galangan kapal yang berdedikasi tinggi dalam menyediakan layanan konstruksi dan pemeliharaan kapal berkualitas. Dengan tim ahli dan fasilitas modern, kami berkomitmen untuk mendukung kelancaran logistik maritim Indonesia.
+              PT. CIH INDONESIA berkomitmen menjadi mitra strategis di industri maritim Indonesia. Dengan tenaga profesional berpengalaman dan sistem produksi yang terstandarisasi, kami menyediakan layanan:
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-center">
                 <FaCheckCircle className="text-ocean-blue mr-3" />
-                <span>Berpengalaman lebih dari 1 dekade</span>
+                <span>Produksi kapal tongkang (Barge)</span>
               </li>
               <li className="flex items-center">
                 <FaCheckCircle className="text-ocean-blue mr-3" />
-                <span>Teknologi manufaktur modern</span>
+                <span>Produksi kapal tugboat</span>
+              </li>
+              <li className="flex items-center">
+                <FaCheckCircle className="text-ocean-blue mr-3" />
+                <span>Repair & maintenance kapal tongkang</span>
+              </li>
+              <li className="flex items-center">
+                <FaCheckCircle className="text-ocean-blue mr-3" />
+                <span>Repair & maintenance kapal tugboat</span>
               </li>
             </ul>
           </div>

@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('hero.png')" }}
+        style={{ backgroundImage: "url('hero.jpg')" }}
       ></div>
       
       {/* Overlay */}
@@ -16,10 +16,10 @@ export default function Hero() {
         <div className="md:w-2/3 mt-20 fade-in-up">
           
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Membangun Masa Depan <br /> Di Atas Samudera
+            Bangun armada Anda  <br /> bersama mitra yang tepat!
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl font-light">
-            Solusi terintegrasi untuk pembuatan kapal baru dan perbaikan kapal dengan standar keselamatan internasional.
+            Kami menghadirkan solusi maritim yang kuat, efisien, dan tahan lama. Dirancang untuk mendukung operasional bisnis Anda secara maksimal.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Link

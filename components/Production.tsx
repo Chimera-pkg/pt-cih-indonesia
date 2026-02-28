@@ -13,7 +13,7 @@ export default function Production() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="group relative overflow-hidden rounded-xl h-80 cursor-pointer shadow-lg">
             <img 
-                src="tugboat.png" 
+                src="tugboat.jpg" 
                 alt="Tugboat" 
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
             />
@@ -27,7 +27,7 @@ export default function Production() {
 
           <div className="group relative overflow-hidden rounded-xl h-80 cursor-pointer shadow-lg">
             <img 
-                src="barge.png" 
+                src="barge.jpg  " 
                 alt="Tongkang" 
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
             />

@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <FaAnchor className="text-2xl" />
-              <span className="text-xl font-bold">SHIPYARD</span>
+              <span className="text-xl font-bold">PT CIH INDONESIA.</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Membangun kapal berkualitas tinggi dengan integritas dan inovasi untuk masa depan maritim Indonesia.
+              menghadirkan solusi maritim yang kuat, efisien, dan tahan lama. Dirancang untuk mendukung operasional bisnis Anda secara maksimal.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} Shipyard Company. All rights reserved.
+          &copy; {new Date().getFullYear()} PT CIH INDONESIA.
         </div>
       </div>
     </footer>

@@ -5,7 +5,7 @@ export default function Maintenance() {
         <div className="flex flex-col md:flex-row-reverse items-center gap-12">
           <div className="md:w-1/2">
             <img 
-                src="repair.jpg" 
+                src="repair.png" 
                 alt="Repair" 
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
             />

@@ -9,7 +9,7 @@ export default function About() {
           <div className="md:w-1/2 relative">
             <div className="rounded-lg shadow-2xl relative z-10 w-full h-96 overflow-hidden">
                 <img 
-                    src="/image2.jpg" 
+                    src="/image2.png" 
                     alt="Shipyard" 
                     className="w-full h-full object-cover"
                 />

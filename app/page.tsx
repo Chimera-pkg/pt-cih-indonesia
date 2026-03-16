@@ -17,7 +17,6 @@ export default function Home() {
       {/* <Organization /> */}
       <Production />
       <Maintenance />
-      <Standards />
       {/* <Partners /> */}
       <Footer />
     </main>

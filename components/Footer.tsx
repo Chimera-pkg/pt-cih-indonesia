@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400 text-sm">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-2 flex-shrink-0" />
-                <span>Jl. Pelabuhan No. 123, Jawa Timur, Indonesia</span>
+                <span>Pelunggut River, Sagulung, Batam City, Riau Islands 29472</span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-2 flex-shrink-0" />
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 flex-shrink-0" />
-                <span>info@perusahaan.com</span>
+                <span>cihindonesia06@gmail.com</span>
               </li>
             </ul>
           </div>

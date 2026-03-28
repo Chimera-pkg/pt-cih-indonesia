@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaAnchor, FaInstagram, FaLinkedinIn, FaFacebookF, FaLocationArrow, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import Image from "next/image";
+import { FaInstagram, FaLinkedinIn, FaFacebookF, FaLocationArrow, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -8,7 +9,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <FaAnchor className="text-2xl" />
+              <Image
+                src="/logo.png"
+                alt="PT CIH INDONESIA Logo"
+                width={40}
+                height={40}
+                className="h-10 w-auto"
+              />
               <span className="text-xl font-bold">PT CIH INDONESIA.</span>
             </div>
             <p className="text-gray-400 text-sm">

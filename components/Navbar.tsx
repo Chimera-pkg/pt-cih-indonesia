@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { FaAnchor, FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,8 +32,14 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <FaAnchor className={`text-3xl ${scrolled ? "text-maritime-blue" : "text-white"} transition-colors`} />
+        <Link href="#" className="flex items-center space-x-2 hover:opacity-80 transition">
+          <Image
+            src="/logo.png"
+            alt="PT CIH INDONESIA Logo"
+            width={40}
+            height={40}
+            className="h-10 w-auto"
+          />
           <div>
             <span
               className={`text-2xl font-bold tracking-wide block leading-none ${
@@ -49,7 +56,7 @@ export default function Navbar() {
               INDONESIA
             </span> */}
           </div>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-sm font-semibold">

@@ -7,6 +7,7 @@ import Maintenance from "@/components/Maintenance";
 import Standards from "@/components/Standards";
 import Partners from "@/components/Partners";
 import Footer from "@/components/Footer";
+import StructureOrganization from "@/components/StructureOrganization";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       {/* <Organization /> */}
       <Production />
       <Maintenance />
+      <StructureOrganization />
       {/* <Partners /> */}
       <Footer />
     </main>

@@ -38,14 +38,7 @@ export default function Hero() {
         </div>
 
         <div className="hidden md:flex flex-col space-y-8 absolute right-10 bottom-20 z-20">
-          <div className="text-right border-r-4 border-white/30 pr-4">
-            <h3 className="text-3xl font-bold">15+</h3>
-            <p className="text-sm opacity-80">Tahun Pengalaman</p>
-          </div>
-          <div className="text-right border-r-4 border-ocean-blue pr-4">
-            <h3 className="text-3xl font-bold">100+</h3>
-            <p className="text-sm opacity-80">Proyek Selesai</p>
-          </div>
+          
         </div>
       </div>
     </header>

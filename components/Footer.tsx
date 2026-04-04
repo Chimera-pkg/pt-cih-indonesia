@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-2 flex-shrink-0" />
-                <span>+62 812-3456-7890</span>
+                <span>0811692233</span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 flex-shrink-0" />
